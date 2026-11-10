@@ -1,11 +1,21 @@
 # dsh-workspace-models
 
+[![npm version](https://img.shields.io/npm/v/dsh-workspace-models)](https://www.npmjs.com/package/dsh-workspace-models)
+[![license](https://img.shields.io/npm/l/dsh-workspace-models)](LICENSE)
+
 为 DeepSeek Harness Web GUI 提供「按工作区指定模型」和「按工作区汇总模型 Token 用量」的插件。
 npm 包名 `dsh-workspace-models`，bundle 名同为 `dsh-workspace-models`，Loader 行 id `workspace-models`。
 
 ## 安装
 
-通过 DSH 的插件管理（设置 → 插件）安装本包；本地开发时把插件管理指向包目录安装即可（安装的是同一个 `dsh.bundle`）。装好后左侧侧边栏会出现「工作区模型」入口。
+```bash
+npm install dsh-workspace-models
+```
+
+也可以直接在 DSH 的插件管理（设置 → 插件）里按包名 `dsh-workspace-models` 安装；本地开发时把插件管理指向包目录安装即可（装的是同一个 `dsh.bundle`）。装好后左侧侧边栏会出现「工作区模型」入口。
+
+- GitHub：<https://github.com/LeonidasLux/dsh-workspace-models>
+- npm：<https://www.npmjs.com/package/dsh-workspace-models>
 
 ## 功能入口
 
