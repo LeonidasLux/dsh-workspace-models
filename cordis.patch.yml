@@ -1,0 +1,3 @@
+- insert:
+    - id: workspace-models
+      name: 'dsh-workspace-models'

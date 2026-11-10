@@ -1,0 +1,57 @@
+{
+  "name": "dsh-workspace-models",
+  "version": "1.0.0",
+  "description": "Per-workspace model routing and per-workspace model token usage for the DeepSeek Harness Web GUI. 为每个工作区指定模型，并汇总各工作区的模型 Token 用量。",
+  "type": "module",
+  "license": "MIT",
+  "author": "LeonidasLux",
+  "homepage": "https://github.com/LeonidasLux/dsh-workspace-models#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeonidasLux/dsh-workspace-models.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LeonidasLux/dsh-workspace-models/issues"
+  },
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE"
+  ],
+  "keywords": [
+    "dsh",
+    "dsh-plugin",
+    "dsh-bundle",
+    "deepseek-harness",
+    "cordis",
+    "model-routing",
+    "token-usage",
+    "workspace"
+  ],
+  "engines": {
+    "node": ">=20.3.0"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true
+    }
+  }
+}

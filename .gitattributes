@@ -1,0 +1,8 @@
+# Normalize line endings so a Windows checkout and an npm tarball agree.
+* text=auto eol=lf
+
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.ico binary

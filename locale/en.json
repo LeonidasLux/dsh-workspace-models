@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Workspace models",
+    "description": "Pins the model each workspace runs on and summarizes its per-model token usage."
+  }
+}
